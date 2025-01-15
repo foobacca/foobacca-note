@@ -14,15 +14,3 @@ function M.note_add()
 end
 
 return M
-
--- original:
---
--- function Note_add()
---    let l:date = '## ' . strftime('%F %A')
---    let l:time = '### ' . strftime('%R')
---    let l:lastline = line('$')
---    call append(l:lastline, ['', l:time, '', ''])
---    if !search(date,'w')
---        call append(l:lastline, ['', l:date])
---    endif
--- endfunction
