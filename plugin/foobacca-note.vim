@@ -12,4 +12,4 @@ endif
 let g:loaded_foobacca_note = 1
 
 " Exposes the plugin's functions for use as commands in Neovim.
-command! -nargs=0 NoteAdd lua require("foobacc-note").note_add()
+command! -nargs=0 NoteAdd lua require("foobacca-note").note_add()
